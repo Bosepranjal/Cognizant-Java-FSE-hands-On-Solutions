@@ -1,0 +1,21 @@
+◉ What are Asymptotic Notations?
+ - Asymptotic notations are mathematical tools used to analyze and describe the performance of
+algorithms as their input size increases.They help us understand how efficient an algorithm is 
+without getting bogged down in specific hardware details or implementation specifics.
+
+There are three primary types of asymptotic notations that work together to give us a complete picture of an algorithm's performance:
+
+1. Big O (Upper Bound): Represents the worst-case scenario or upper bound of an algorithm's performance.
+2. Big Ω (Lower Bound): Represents the best-case scenario or lower bound of an algorithm's performance.
+3. Big Θ (Exact Bound): Represents the exact complexity when the upper and lower bounds are equal.
+
+◉ Big O Notation Explanation:
+  •Definition: Big O notation is a mathematical notation used to used to analyze the performance (time/space complexity) of algorithms
+    based on input size 'n'. It gives a high-level understanding of the algorithm's efficiency.
+
+  •Importance: It helps to analyze algorithms, compare their performance, and predict scalability.
+
+  Search Operation Scenarios:
+    • Best Case: The target element is found at the very first comparison.
+    • Average Case: The target element is found somewhere in the middle of the search process.
+    • Worst Case: The target element is not found, leading to the maximum number of comparisons.

@@ -1,0 +1,24 @@
+◉ Understanding Recursion(task-1)
+   • Definition: Recursion is a programming technique where a function calls itself 
+                to solve smaller instances of the same problem.
+
+   • How Recursion Works:
+       A recursive function typically includes:
+1.(Base Case): A condition under which the function returns a value without making further calls (to prevent infinite recursion).
+2.(Recursive Case): The part where the function calls itself with a reduced or simplified version of the original problem.
+
+● How recursion simplify problems?
+  1.By reducing code-complexity and simplifying the problem structure.
+  2.Easier implementation of algorithms like in divide & conquer techniques such as quick-sort and merge-sort.
+  3.Simplified Flow Control: Recursive functions cleanly encapsulate the conditional flow of operations required to reach a solution,
+                             often making the logic easier to follow.
+
+● Common Use Cases for Recursion
+    1. Tree and Graph Traversal: Navigating through hierarchical data structures.
+    2. Dynamic Programming: Breaking down problems into overlapping sub-problems, solving by recursion.
+    3. Backtracking Algorithms: Such as the N-Queens problem or solving mazes.
+
+
+◉(task-2) Recursive Forecast formula : 
+            Defining a method that recursively calculates the future value of an investment:
+              ▪ FutureValue(years) = principal * (1 + rate)^years

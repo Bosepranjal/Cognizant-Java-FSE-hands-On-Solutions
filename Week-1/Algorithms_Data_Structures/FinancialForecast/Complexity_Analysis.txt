@@ -1,0 +1,31 @@
+(Task-4)
+◉ Time Complexity:
+                The recursion depth is equal to years, so:
+
+                 • Time Complexity: O(n)
+
+                 • Space Complexity: O(n) (due to recursive call stack)
+
+
+◉ Optimization Techniques:
+   1. (Memoization): Store previously computed results if multiple queries are made.
+
+   2. Convert to Iteration: let's understand from the example of code below
+
+      public static double calculateFutureIterative(double principal, double rate, int years) {
+      for (int i = 0; i < years; i++) {
+             principal *= (1 + rate);
+            }
+            return principal;
+        }
+
+    3. Use Math.pow (non-recursive):      return principal * Math.pow(1 + rate, years);
+        -As the time & space complexity of Math.pow is the fastest in comparison to both
+         iterative and recursive approaches i.e, O(1) and no-looping is needed.
+
+
+         ********************************************************************************
+
+
+       
+      

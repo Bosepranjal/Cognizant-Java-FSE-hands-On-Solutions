@@ -1,0 +1,30 @@
+◉ Time Complexity Comparison:
+
+   • Linear Search:
+        1.Best Case: O(1) (if the element is found at the first position)
+        2.Average Case: O(n) (average time for n elements)
+        3.Worst Case: O(n) (if the element is not found)
+
+   • Binary Search:
+        1.Best Case: O(1) (if the middle element is the target)
+        2.Average Case: O(log n) (divides the array in half with each iteration)
+        3.Worst Case: O(log n) (same as average case)
+
+◉ Suitability for E-commerce Platform ?
+  
+  Linear Search:
+                Pros: 1. Simple to implement.
+                      2. No need for sorted data.
+                Cons:
+                      1. Slower for large datasets.
+  Binary Search:
+                Pros: 1. Much faster for large datasets due to logarithmic time complexity.
+                      2. Efficient in a retrieval-focused context, particularly when frequently searching through 
+                          the same dataset.
+                Cons:
+                      1. Requires the data to be sorted, which adds an overhead if data is frequently updated.
+
+● Conclusion : 
+Recommendation --> (Binary Search) is generally the better choice for an e-commerce search function for the following reasons:
+1. It provides significantly faster search times for large datasets, which is critical in an e-commerce setting where users expect quick search results.
+2. With proper handling, such as maintaining sorted data as products are added, the benefits of binary search outweigh the initial costs associated with sorting.
